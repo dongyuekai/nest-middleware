@@ -7,25 +7,25 @@ export class AppController {
 
   @Get('hello')
   getHello(): string {
-    console.log('hello--');
+    console.log('------hello--');
     return this.appService.getHello();
   }
 
   @Get('hello2')
   getHello2(): string {
-    console.log('hello2--');
+    console.log('------hello2--');
     return this.appService.getHello();
   }
 
   @Get('world1')
   getWorld1(): string {
-    console.log('world1--');
+    console.log('------world1--');
     return this.appService.getHello();
   }
 
   @Get('world2')
   getWorld2(): string {
-    console.log('world2--');
+    console.log('------world2--');
     return this.appService.getHello();
   }
 }
